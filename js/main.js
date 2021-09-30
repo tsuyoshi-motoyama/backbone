@@ -7,7 +7,7 @@ var person = {
         });
     }
 };
-
+//
 _.extend(person, Backbone.Events);
 
 person.on("walking", function(e) {
